@@ -42,7 +42,7 @@ uint64_t nextPrime(uint64_t value) {
 }
 
 uint64_t sumPrime(uint64_t hbound) {
-  __int64 sum = 0;
+  uint64_t sum = 0;
   for (int i = 0; i < hbound; i++) {
     if (checkPrime(i) == 1) {
       sum += i;
